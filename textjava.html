@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+    <script >
+       
+      console.log("Bienvenue le jeu va commencer");
+      var solution=Math.floor(Math.random() * 100) + 1;
+      var x=Number(prompt("entrez un nombre:"));
+      var tentative=0;
+      var A = document.getElementById("");
+
+while((x !== solution) && (tentative < 6)) {
+      if (x > solution){
+      alert("Vous avez perdus 'il vous reste'". concat(tentative));
+        console.log(x + "c'est trop grand");
+        if(tentative==6);
+        }
+        
+     else(x < solution)
+     alert("Vous avez perdus 'il vous reste'". concat(tentative));
+            console.log(x +"ops!c'est trop petit,réesséyez.");
+         tentative++;
+      var x = Number(prompt("Entrez un nombre"));
+      if(tentative==6);
+     }
+  if(x==solution){
+     console.log(" Felicitatio Vous venez de gagner");
+
+     }
+
+ else{
+  console.log("Vous avez perdu!");
+  }
+
+      
+        
+        
+
+    </script>
+</body>
+</html>
